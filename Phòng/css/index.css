@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-light {
+    background-color: #2F3C43;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.navbar .navbar-toggler:hover {
+    background-color: #FB722F;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+header .navbar {
+    padding: 20px 0;
+}
+
+.item-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.item-link:hover {
+    color: #FB722F;
+}
+
+.collapse .btn-secondary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.collapse .btn-secondary:hover {
+    background-color: #FB722F;
+}
+
+.banner {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+
+/* room */
+
+.room {
+    margin-top: 80px;
+}
+
+.content-room {
+    padding: 20px 50px;
+}
+
+.title-room {
+    text-shadow: 2px 2px 5px #df672b;
+    color: #FB722F;
+    font-size: 30px;
+}
+
+.document-room {
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(126, 104, 91);
+}
+
+.room .btn-primary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.room .btn-primary:hover {
+    transform: scale(1.2);
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.room .btn-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-left: 30px;
+}
+
+.room .btn-link:hover {
+    color: #FB722F;
+    border-bottom: 1px solid #FB722F;
+}
+
+
+/* list-room */
+
+.list-room {
+    margin-bottom: 80px;
+}
+
+.list-room .col {
+    margin-top: 50px;
+}
+
+.list-room .card {
+    border: none;
+    padding: 0 20px;
+}
+
+.card-title {
+    font-size: 17px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-title a:hover {
+    color: #FB722F;
+}
+
+.card-text {
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    padding: 10px 0;
+}
+
+.list-room .btn {
+    padding: 5px;
+}
+
+.list-room .btn-primary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.list-room .btn-primary:hover {
+    transform: scale(1.2);
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.list-room .btn-link {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    border-bottom: 1px solid rgb(129, 129, 129);
+    ;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+.list-room .btn-link:hover {
+    color: #FB722F;
+    border-bottom: 1px solid #FB722F;
+}
+
+
+/* css footer */
+
+footer {
+    background-color: #2F3C43;
+    color: white;
+}
+
+.take-sbm {
+    border: 0;
+    background-color: #FB722F;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text-form {
+    background-color: #27333A;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+footer a:hover {
+    color: #FB722F;
+}
+
+footer li {
+    list-style: none;
+}
+
+.text-footer {
+    font-size: 10px;
+    padding: 5px 0;
+    color: rgb(175, 175, 175);
+}
+
+footer ul {
+    padding: 0;
+}
+
+.img-footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.information-footer {
+    border-top: 1px solid #808891;
+    border-bottom: 1px solid #808891;
+    padding: 40px 0;
+}
+
+.end-footer {
+    padding: 15px 0 5px 0;
+    text-align: center;
+}

@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-light {
+    background-color: #2F3C43;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.navbar .navbar-toggler:hover {
+    background-color: #FB722F;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+header .navbar {
+    padding: 20px 0;
+}
+
+.item-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.item-link:hover {
+    color: #FB722F;
+}
+
+.collapse .btn-secondary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.collapse .btn-secondary:hover {
+    background-color: #FB722F;
+}
+
+
+/* css main */
+
+.banner {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.resort {
+    padding: 20px;
+}
+
+.resort .btn-primary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.resort .btn-primary:hover {
+    transform: scale(1.2);
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.content-resort {
+    padding: 20px 50px;
+}
+
+.title-resort {
+    text-align: center;
+    text-shadow: 2px 2px 5px #df672b;
+    color: #FB722F;
+    font-size: 30px;
+}
+
+.document-resort {
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(126, 104, 91);
+}
+
+.main-title {
+    padding: 40px 10px 20px 10px;
+}
+
+
+/* css quote */
+
+.quote {
+    text-align: center;
+    color: white;
+    background-color: #2F3C43;
+}
+
+.about-quote__icon {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.about-quote__quote {
+    font-family: "UTM Aptima", serif;
+    font-style: italic;
+}
+
+.about-quote__divider {
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    background-color: #44515E;
+    margin: 20px 0;
+}
+
+.about-quote__entry {
+    font-family: "UTM Aptima", serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+/* content-quote */
+
+.news {
+    padding: 40px 0;
+}
+
+.content-quote {
+    text-align: center;
+}
+
+.testimonial {
+    width: 770px;
+}
+
+.news .card {
+    border: none;
+}
+
+.item-new {
+    padding: 0 20px;
+}
+
+.news .btn-primary {
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.news .btn-primary:hover {
+    transform: scale(1.2);
+    background-color: #FB722F;
+    border-color: #FB722F;
+}
+
+.card-title a {
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(107, 84, 71);
+}
+
+.card-title a:hover {
+    color: #FB722F;
+}
+
+.card-text {
+    line-height: 30px;
+    color: rgb(126, 104, 91);
+}
+
+.content-news {
+    padding: 40px 0;
+}
+
+
+/* css footer */
+
+footer {
+    background-color: #2F3C43;
+    color: white;
+}
+
+.take-sbm {
+    border: 0;
+    background-color: #FB722F;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text-form {
+    background-color: #27333A;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+footer a:hover {
+    color: #FB722F;
+}
+
+footer li {
+    list-style: none;
+}
+
+.text-footer {
+    font-size: 10px;
+    padding: 5px 0;
+    color: rgb(175, 175, 175);
+}
+
+footer ul {
+    padding: 0;
+}
+
+.img-footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.information-footer {
+    border-top: 1px solid #808891;
+    border-bottom: 1px solid #808891;
+    padding: 40px 0;
+}
+
+.end-footer {
+    padding: 15px 0 5px 0;
+    text-align: center;
+}
+
+
+/* css media */
+
+@media (min-width: 1440px) {
+    .quote {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width: 1260px) {
+    .quote {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .about-quote__entry {
+        padding: 0 65px;
+    }
+}
+
+@media (min-width: 768px) {
+    .quote {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .about-quote__quote {
+        font-size: 30px;
+    }
+    .about-quote__entry {
+        padding: 0 25px;
+    }
+}
